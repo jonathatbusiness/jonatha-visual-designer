@@ -1,0 +1,339 @@
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(29, 29, 36);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: rgb(53, 53, 66);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  min-height: 400px;
+}
+
+.project-media-container {
+  width: 48%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-size: border-box;
+  min-height: 400px;
+}
+
+.project-media {
+  width: 100%;
+  height: auto;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.project-media-title {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+.project-media-title h3 {
+  font-size: 20px;
+  color: #e809a4;
+  background-image: linear-gradient(90deg, #e809a4, #ff8b1a, #be05ab, #6075ff);
+  background-size: 100% 100%;
+  background-clip: text;
+  animation: gradientRotation 6s linear infinite;
+  text-align: center;
+}
+
+@keyframes gradientRotation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.project-media img,
+.project-media iframe {
+  width: 100%;
+  height: 300px;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.project-info {
+  width: 48%;
+  padding-left: 20px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.project-info h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #282832;
+}
+
+.project-info p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.project-info-text-container {
+  height: 350px;
+  box-sizing: border-box;
+}
+
+.short-description {
+  height: 280px;
+  overflow-y: auto;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("/jonatha-teixeira-visual-designer-bg-hero.webp") no-repeat
+    center center;
+  background-size: cover;
+}
+
+.project-info-button {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  box-sizing: border-box;
+  margin: 0px auto;
+}
+.project-info button {
+  padding: 0.5rem 1rem;
+  background-color: #6075ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 200px;
+  font-size: 1rem;
+}
+
+.project-info button:hover {
+  background-color: rgb(62, 85, 236);
+  transform: translateY(-10%) scale(1);
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  animation: fadeEffect 0.5s ease-in-out;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: none;
+  pointer-events: none;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.prev-button,
+.next-button {
+  background-color: rgba(96, 117, 255, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 50px;
+  height: 45px;
+  width: 45px;
+  pointer-events: all;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: rgba(232, 9, 164, 0.5);
+  transform: translateY(-10%) scale(1);
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: solid 1px #bbbdbc;
+}
+
+.indicator.active {
+  background-color: #e809a4;
+}
+
+.carousel-controls button {
+  z-index: 2;
+}
+
+.fullscreen-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.fullscreen-image {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 10001;
+}
+
+.fullscreen-modal img {
+  cursor: zoom-out;
+}
+
+.project-media img,
+.carousel .project-image {
+  cursor: zoom-in;
+}
+
+.carousel .project-image {
+  cursor: zoom-in;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.carousel img {
+  width: auto;
+  opacity: 1;
+  animation: fadeEffect 0.5s ease-in-out;
+}
+
+.carousel .project-image {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@media (max-width: 1030px) {
+  .project-card {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    height: auto;
+    min-height: 800px;
+    gap: 20px;
+    width: 100%;
+  }
+  .project-media-container {
+    min-height: 350px;
+    height: auto;
+    width: 100%;
+  }
+
+  .project-info {
+    width: 100%;
+  }
+  .project-info button {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 1rem;
+  }
+
+  .carousel {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .project-media,
+  .project-info {
+    width: 100%;
+  }
+
+  .project-info {
+    padding-left: 20px;
+    margin-top: 15px;
+  }
+
+  .project-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-info p {
+    font-size: 0.9rem;
+  }
+  .project-card {
+    gap: 0px;
+  }
+}
