@@ -7,7 +7,7 @@ const projects = [
     detailedDescription: "project_0_detailed_description",
     showButton: "yes",
     showLink: "yes",
-    link: "https://github.com/jonathatbusiness/wedding-invitation-git",
+    link: "https://github.com/jonathatbusiness/jonatha-visual-designer",
     sectionType: "webdesign",
   },
   {
