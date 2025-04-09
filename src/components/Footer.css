@@ -7,12 +7,25 @@
   height: 250px;
 }
 
-.footer p {
+.upper-footer {
+  height: 80px;
+}
+.upper-footer p {
+  margin-bottom: 10px;
+}
+
+.upper-footer a {
   margin-bottom: 20px;
+  text-decoration: none;
+  color: #ff8b1a;
+}
+
+.upper-footer a:hover {
+  text-decoration: underline;
 }
 
 .base-footer {
-  height: 200px;
+  height: 170px;
   background: linear-gradient(90deg, #e809a4, #ff8b1a, #be05ab, #6075ff);
   animation: gradientLinear 8s ease infinite;
   background-size: 300% 300%;

@@ -49,6 +49,7 @@ const translations = {
     card_info_title: "About this project",
     learn_more: "Learn more",
     close: "Close",
+    info_image: "Click on the images to enlarge",
     project_0_title: "This portfolio website",
     project_0_description: [
       "This is a personal portfolio website designed to showcase my professional work and design skills. The website is built with ReactJS, providing a dynamic and responsive user experience. I implemented various interactive elements using AOS (Animate on Scroll) for smooth animations and transitions, making the website feel engaging and lively.",
@@ -215,24 +216,100 @@ const translations = {
 
       "The video highlights how accessible the Viva Desconto Real card is, with a low monthly fee that covers the entire family and provides discounts at various partner establishments. It also emphasizes the ease of use, allowing users to enjoy the benefits immediately after receiving their card. The goal of the video is to promote the card as a practical and valuable tool for families looking to save on a wide range of services.",
     ],
-    project_16_title: "Visual Design Creations for Social Media Posts",
-    project_16_description:
+    project_16_title: "Brand Manual for CLASSIC",
+    project_16_description: [
+      "This project was created to establish and standardize the visual identity for CLASSIC Administration and Participations Ltd.",
+      "The manual outlines the proper usage of the brand's logo, typography, colors, and visual elements to ensure consistency across all communication channels.",
+    ],
+    project_16_detailed_description: [
+      "This comprehensive brand manual was developed to establish a clear and cohesive visual identity for CLASSIC Administrações e Participações Ltda. The objective was to create a sophisticated and professional brand image that reflects the company's values and services in administration and business participation.",
+      "The brand design features a distinctive logo composed of stylized interlocking 'S' shapes above the word 'CLASSIC' in elegant typography. The logo symbolizes stability, connection, and professional management, conveying the essence of the company's business activities.",
+      "A key aspect of this project is the carefully selected color palette, which includes a deep navy blue (#272E39), a warm gold (#EFD6AC), and a light silver-gray (#ECECEC). These colors were chosen to evoke a sense of trust, luxury, and professionalism, aligning perfectly with the company's market positioning.",
+      "The typography system includes two main font families: Baston Rounded Regular for the CLASSIC name, providing a distinctive and modern look, and Jost for all supporting text, ensuring excellent readability across various applications and sizes.",
+      "The manual provides detailed guidelines for the logo's protected area, ensuring that the brand mark maintains its visual integrity and legibility in all applications. It also includes specifications for using reduced versions of the logo in contexts where space is limited, such as on stamped documents and social media profiles.",
+      "Regarding implementation, the manual offers precise technical specifications with CMYK, RGB, hexadecimal, and Pantone color codes to guarantee color consistency across different media and printing processes. The guidelines ensure that the brand identity remains cohesive whether displayed digitally or in print.",
+      "This brand manual combines elegant design elements with practical guidelines, providing CLASSIC with a distinctive visual identity that effectively communicates its corporate values while ensuring consistent application across all brand touchpoints.",
+      "This brand manual combines elegant design elements with practical guidelines, providing CLASSIC with a distinctive visual identity that effectively communicates its corporate values while ensuring consistent application across all brand touchpoints.",
+    ],
+
+    project_17_title: "Visual Design Creations for Social Media Posts",
+    project_17_description:
       "In this carousel, I present a variety of visual creations designed specifically for social media posts, with a focus on Instagram. From festive graphics to promotional layouts, these designs aim to engage audiences and communicate messages effectively. The design techniques include vibrant typography, dynamic compositions, and attention-grabbing visuals tailored to specific themes and events.",
-    project_17_title: "Business Cards – Traditional and Digital Designs",
-    project_17_description: [
+    project_18_title: "Business Cards – Traditional and Digital Designs",
+    project_18_description: [
       "Here are some of my business card designs, both in the traditional print format and digital format. I work with Photoshop and Illustrator to ensure designs that meet each client's needs, with a focus on visual identity, clarity, and impact.",
       "Whether for a company, a freelancer, or a brand, the designs I create help leave an excellent impression. In all projects, I apply techniques suited to each client's identity, creating cards that stand out and leave a strong, professional mark.",
     ],
-    project_18_title: "Flyer Designs",
-    project_18_description: [
+    project_19_title: "Flyer Designs",
+    project_19_description: [
       "Here are flyer designs I’ve created, both digital and print. I have experience working with both formats using Photoshop and Illustrator. The designs aim to capture attention with visually striking elements, making the content stand out for maximum engagement.",
       "Whether for events, promotions, or informational purposes, I focus on clarity and impact, ensuring that each flyer communicates its message effectively while maintaining aesthetic appeal.",
     ],
-    project_19_title: "Various Visual Design Creations",
-    project_19_description: [
+    project_20_title: "Various Visual Design Creations",
+    project_20_description: [
       "Here are several visual design creations across different formats and purposes. From branding, advertisements, social media posts, to banners and business cards, I have worked extensively with tools like Photoshop and Illustrator to bring unique concepts to life.",
       "Each design was carefully crafted to meet the specific needs of the client, incorporating their branding, style, and goals to create memorable and engaging visuals.",
     ],
+    privacy_policy_title: "Privacy Policy",
+    privacy_policy_intro:
+      "This privacy policy explains how I collect, use, and protect your information when you visit my portfolio website. By using this website, you consent to the data practices outlined in this policy.",
+    privacy_policy_what_data_collect: "1. Information I Collect",
+    privacy_policy_data_description_a:
+      "I do not collect personal information, such as your name, email address.",
+    privacy_policy_data_description_b:
+      "<strong>Analytics Data:</strong> I use Google Analytics to collect data on how visitors interact with my website. This includes information such as your IP address, browser type, pages visited, time spent on the site, and links clicked. This data helps me understand website traffic and optimize content.",
+
+    privacy_policy_how_we_use_data: "2. How I Use the Information",
+    privacy_policy_how_we_use_data_a:
+      "The information I collect is used for the following purposes:",
+    privacy_policy_usage_website_analytics:
+      "<strong>Website Analytics:</strong> I use Google Analytics to gather statistical data about the use of the website.",
+    privacy_policy_usage_user_experience:
+      "<strong>Improvement of User Experience:</strong> by analyzing user behavior, I can identify areas of improvement and optimize the design, making sure your experience is smooth and enjoyable.",
+    privacy_policy_data_sharing: "3. Data Sharing and Disclosure",
+    privacy_policy_data_sharing_a:
+      "I do not share your personal data with third parties unless required by law or necessary to fulfill a service request. For example:",
+    privacy_policy_sharing_service_providers:
+      "<strong>Service Providers:</strong> data may be shared with service providers who assist with website analytics or maintenance.",
+    privacy_policy_sharing_legal_compliance:
+      "<strong>Legal Compliance:</strong> I may disclose your information if required by law or to protect my rights.",
+    privacy_policy_cookies: "4. Cookies and Tracking Technologies",
+    privacy_policy_cookies_a:
+      "My website uses cookies and similar tracking technologies to enhance your browsing experience. Cookies are small files stored on your device that help retain certain information about your preferences or actions on the site.",
+    privacy_policy_cookies_google_analytics:
+      "<strong>Google Analytics Cookies:</strong> these cookies collect data on how you interact with my site, such as which pages you visit, the time you spend on them, and the links you click. This data is used solely to improve the website experience.",
+    privacy_policy_cookies_consent_banner:
+      "<strong>Consent Banner Cookies:</strong> additionally, I use cookies to remember your choice regarding the consent banner. These cookies are strictly for ensuring that the consent notice does not appear every time you visit the site.",
+    privacy_policy_user_rights: "5. Your Rights",
+    privacy_policy_user_rights_a: "You have the right to:",
+    privacy_policy_rights_access:
+      "<strong>Access:<strong> request access to any data I may hold about you.",
+    privacy_policy_rights_correction:
+      "<strong>Correction:</strong> request corrections if any personal data is inaccurate or incomplete.",
+    privacy_policy_rights_deletion:
+      "<strong>Deletion:</strong> request the deletion of your personal data, subject to certain conditions.",
+    privacy_policy_rights_withdrawal:
+      "<strong>Withdrawal of Consent</strong>: you can withdraw your consent at any time. However, please note that this may affect your ability to use certain features of the website.",
+    privacy_policy_data_security: "6. Data Security",
+    privacy_policy_security_description:
+      "Since I use <strong>Google Analytics</strong> to collect and store data, <strong>Google is responsible for ensuring the security of the data</strong> collected via their services. Google takes the necessary security measures to protect your data from unauthorized access, alteration, or disclosure. For more information on how Google handles your data, please review Google’s Privacy Policy.",
+    privacy_policy_changes: "7. Changes to This Privacy Policy",
+    privacy_policy_changes_description:
+      "I may update this Privacy Policy from time to time to reflect changes in my practices or legal requirements. Any changes will be posted on this page, and the revised policy will be effective immediately upon posting.",
+    privacy_policy_contact: "8. Contact Me",
+    privacy_policy_contact_a:
+      "If you have any questions or concerns about this Privacy Policy or how your data is being used, feel free to contact me at:",
+    privacy_policy_contact_email:
+      "<strong>Email:</strong> jonatha.teixeira.business@gmail.com",
+    privacy_policy_contact_address:
+      "<strong>Address:</strong> Avenida Afonso Pena, 1101 - Centro - Alfenas-MG",
+    privacy_policy_contact_phone: "<strong>Phone:</strong> +55 35 98452 9241",
+    privacy_footer_link: "Privacy Policy",
+    consent_banner_text:
+      "We use cookies to improve your experience. By continuing to browse the site, you consent to our use of cookies.",
+    consent_banner_cta: "Learn more",
+    consent_banner_btn_yes: "Accept",
+    consent_banner_btn_no: "Decline",
   },
 
   fr: {
@@ -289,6 +366,7 @@ const translations = {
     learn_more: "En savoir plus",
 
     close: "Fermer",
+    info_image: "Cliquez sur les images pour les agrandir",
     project_0_title: "Ce site portfolio",
     project_0_description: [
       "Il s'agit d'un site portfolio personnel conçu pour mettre en valeur mon travail professionnel et mes compétences en design. Le site est construit avec ReactJS, offrant une expérience utilisateur dynamique et réactive. J'ai mis en place divers éléments interactifs en utilisant AOS (Animate on Scroll) pour des animations fluides et des transitions, rendant le site attrayant et vivant.",
@@ -459,25 +537,100 @@ const translations = {
 
       "La vidéo met en avant l'accessibilité de la carte Viva Desconto Real, avec des frais mensuels abordables qui couvrent toute la famille et offrent des réductions dans divers établissements partenaires. Elle souligne également la facilité d'utilisation, permettant aux utilisateurs de profiter des avantages dès la réception de leur carte. L'objectif de la vidéo est de promouvoir la carte comme un outil pratique et précieux pour les familles souhaitant économiser sur une large gamme de services.",
     ],
-    project_16_title:
+    project_16_title: "Manuel de Marque pour CLASSIC",
+    project_16_description: [
+      "Ce projet a été créé pour établir et standardiser l'identité visuelle de CLASSIC Administrações e Participações Ltda.",
+      "Le manuel définit l'utilisation appropriée du logo, de la typographie, des couleurs et des éléments visuels de la marque pour assurer une cohérence sur tous les canaux de communication.",
+    ],
+    project_16_detailed_description: [
+      "Ce manuel de marque complet a été développé pour établir une identité visuelle claire et cohérente pour CLASSIC Administrações e Participações Ltda. L'objectif était de créer une image de marque sophistiquée et professionnelle qui reflète les valeurs et les services de l'entreprise dans l'administration et la participation commerciale.",
+      "Le design de la marque présente un logo distinctif composé de formes 'S' entrelacées stylisées au-dessus du mot 'CLASSIC' dans une typographie élégante. Le logo symbolise la stabilité, la connexion et la gestion professionnelle, transmettant l'essence des activités commerciales de l'entreprise.",
+      "Un aspect clé de ce projet est la palette de couleurs soigneusement sélectionnée, qui comprend un bleu marine profond (#272E39), un or chaleureux (#EFD6AC) et un gris argenté clair (#ECECEC). Ces couleurs ont été choisies pour évoquer un sentiment de confiance, de luxe et de professionnalisme, s'alignant parfaitement avec le positionnement de l'entreprise sur le marché.",
+      "Le système typographique comprend deux familles de polices principales : Baston Rounded Regular pour le nom CLASSIC, offrant un aspect distinctif et moderne, et Jost pour tous les textes d'accompagnement, assurant une excellente lisibilité dans diverses applications et tailles.",
+      "Le manuel fournit des directives détaillées pour la zone protégée du logo, garantissant que la marque conserve son intégrité visuelle et sa lisibilité dans toutes les applications. Il comprend également des spécifications pour l'utilisation de versions réduites du logo dans des contextes où l'espace est limité, comme sur les documents tamponnés et les profils de médias sociaux.",
+      "Concernant la mise en œuvre, le manuel offre des spécifications techniques précises avec des codes de couleur CMJN, RVB, hexadécimal et Pantone pour garantir la cohérence des couleurs à travers différents médias et processus d'impression. Les directives assurent que l'identité de la marque reste cohérente, qu'elle soit affichée numériquement ou imprimée.",
+      "Ce manuel de marque combine des éléments de design élégants avec des directives pratiques, fournissant à CLASSIC une identité visuelle distinctive qui communique efficacement ses valeurs d'entreprise tout en assurant une application cohérente sur tous les points de contact de la marque.",
+    ],
+    project_17_title:
       "Créations Visuelles pour Publications sur les Réseaux Sociaux",
-    project_16_description:
+    project_17_description:
       "Dans ce carrousel, je présente une variété de créations visuelles conçues spécifiquement pour des publications sur les réseaux sociaux, en particulier pour Instagram. Des graphiques festifs aux mises en page promotionnelles, ces conceptions visent à capter l'attention du public et à communiquer efficacement les messages. Les techniques de design incluent une typographie vibrante, des compositions dynamiques et des visuels accrocheurs adaptés à des thèmes et événements spécifiques.",
-    project_17_title: "Cartes de Visite – Designs Traditionnels et Numériques",
-    project_17_description: [
+    project_18_title: "Cartes de Visite – Designs Traditionnels et Numériques",
+    project_18_description: [
       "Voici quelques-unes de mes créations de cartes de visite, à la fois dans le format traditionnel pour l'impression et numérique. Je travaille avec Photoshop et Illustrator pour garantir des designs qui répondent aux besoins de chaque client, en mettant l'accent sur l'identité visuelle, la clarté et l'impact.",
       "Que ce soit pour une entreprise, un freelance ou une marque, les designs que je crée aident à laisser une excellente impression. Dans tous les projets, j'applique des techniques adaptées à l'identité de chaque client, créant des cartes qui se distinguent et laissent une marque forte et professionnelle.",
     ],
-    project_18_title: "Conceptions de Flyers",
-    project_18_description: [
+    project_19_title: "Conceptions de Flyers",
+    project_19_description: [
       "Voici des conceptions de flyers que j’ai réalisées, à la fois numériques et imprimées. J'ai de l'expérience dans les deux formats en utilisant Photoshop et Illustrator. Les conceptions visent à capturer l'attention avec des éléments visuellement saisissants, rendant le contenu plus percutant pour un engagement maximal.",
       "Qu'il s'agisse d'événements, de promotions ou d'informations, je mets l'accent sur la clarté et l'impact, en veillant à ce que chaque flyer communique son message efficacement tout en conservant un attrait esthétique.",
     ],
-    project_19_title: "Créations Diverses de Design Visuel",
-    project_19_description: [
+    project_20_title: "Créations Diverses de Design Visuel",
+    project_20_description: [
       "Voici plusieurs créations de design visuel dans différents formats et à des fins variées. De la création de logos, des publicités, des publications sur les réseaux sociaux, aux bannières et cartes de visite, j'ai utilisé des outils tels que Photoshop et Illustrator pour donner vie à des concepts uniques.",
       "Chaque design a été minutieusement conçu pour répondre aux besoins spécifiques du client, en intégrant son image de marque, son style et ses objectifs, afin de créer des visuels mémorables et engageants.",
     ],
+    privacy_policy_title: "Politique de confidentialité",
+    privacy_policy_intro:
+      "Cette politique de confidentialité explique comment je collecte, utilise et protège vos informations lorsque vous visitez mon site portfolio. En utilisant ce site, vous consentez aux pratiques de données décrites dans cette politique.",
+    privacy_policy_what_data_collect: "1. Informations que je collecte",
+    privacy_policy_data_description_a:
+      "Je ne collecte pas d'informations personnelles, telles que votre nom, adresse e-mail.",
+    privacy_policy_data_description_b:
+      "<strong>Données d'Analytics :</strong> J'utilise Google Analytics pour collecter des données sur la façon dont les visiteurs interagissent avec mon site web. Cela inclut des informations telles que votre adresse IP, le type de navigateur, les pages visitées, le temps passé sur le site et les liens cliqués. Ces données m'aident à comprendre le trafic sur le site et à optimiser le contenu.",
+    privacy_policy_how_we_use_data: "2. Comment j'utilise les informations",
+    privacy_policy_how_we_use_data_a:
+      "Les informations que je collecte sont utilisées aux fins suivantes :",
+    privacy_policy_usage_website_analytics:
+      "<strong>Analyse du site Web :</strong> J'utilise Google Analytics pour recueillir des données statistiques sur l'utilisation du site.",
+    privacy_policy_usage_user_experience:
+      "<strong>Amélioration de l'expérience utilisateur :</strong> En analysant le comportement des utilisateurs, je peux identifier des domaines d'amélioration et optimiser le design, en veillant à ce que votre expérience soit fluide et agréable.",
+    privacy_policy_data_sharing: "3. Partage et divulgation des données",
+    privacy_policy_data_sharing_a:
+      "Je ne partage pas vos données personnelles avec des tiers, sauf si la loi l'exige ou si cela est nécessaire pour répondre à une demande de service. Par exemple :",
+    privacy_policy_sharing_service_providers:
+      "<strong>Fournisseurs de services :</strong> Les données peuvent être partagées avec des prestataires de services qui aident avec l'analyse du site web ou sa maintenance.",
+    privacy_policy_sharing_legal_compliance:
+      "<strong>Conformité légale :</strong> Je peux divulguer vos informations si la loi l'exige ou pour protéger mes droits.",
+    privacy_policy_cookies: "4. Cookies et technologies de suivi",
+    privacy_policy_cookies_a:
+      "Mon site utilise des cookies et des technologies similaires pour améliorer votre expérience de navigation. Les cookies sont de petits fichiers stockés sur votre appareil qui aident à conserver certaines informations sur vos préférences ou actions sur le site.",
+    privacy_policy_cookies_google_analytics:
+      "<strong>Cookies de Google Analytics :</strong> Ces cookies collectent des données sur la façon dont vous interagissez avec mon site, comme les pages que vous visitez, le temps que vous y passez et les liens sur lesquels vous cliquez. Ces données sont utilisées uniquement pour améliorer l'expérience du site.",
+    privacy_policy_cookies_consent_banner:
+      "<strong>Cookies du bandeau de consentement :</strong> De plus, j'utilise des cookies pour mémoriser votre choix concernant le bandeau de consentement. Ces cookies sont uniquement utilisés pour garantir que l'avis de consentement n'apparaisse pas à chaque fois que vous visitez le site.",
+    privacy_policy_user_rights: "5. Vos droits",
+    privacy_policy_user_rights_a: "Vous avez le droit de :",
+    privacy_policy_rights_access:
+      "<strong>Accès :</strong> Demander l'accès à toutes les données que je peux détenir à votre sujet.",
+    privacy_policy_rights_correction:
+      "<strong>Correction :</strong> Demander des corrections si des données personnelles sont inexactes ou incomplètes.",
+    privacy_policy_rights_deletion:
+      "<strong>Suppression :</strong> Demander la suppression de vos données personnelles, sous certaines conditions.",
+    privacy_policy_rights_withdrawal:
+      "<strong>Retrait du consentement :</strong> Vous pouvez retirer votre consentement à tout moment. Toutefois, veuillez noter que cela peut affecter votre capacité à utiliser certaines fonctionnalités du site.",
+    privacy_policy_data_security: "6. Sécurité des données",
+    privacy_policy_security_description:
+      "Puisque j'utilise <strong>Google Analytics</strong> pour collecter et stocker des données, <strong>Google est responsable de garantir la sécurité des données</strong> collectées via leurs services. Google prend les mesures nécessaires pour protéger vos données contre tout accès non autorisé, modification ou divulgation. Pour plus d'informations sur la façon dont Google gère vos données, veuillez consulter la politique de confidentialité de Google.",
+    privacy_policy_changes:
+      "7. Modifications de cette politique de confidentialité",
+    privacy_policy_changes_description:
+      "Je peux mettre à jour cette politique de confidentialité de temps en temps pour refléter les changements dans mes pratiques ou les exigences légales. Tout changement sera publié sur cette page et la politique révisée sera effective immédiatement après sa publication.",
+    privacy_policy_contact: "8. Contactez-moi",
+    privacy_policy_contact_a:
+      "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité ou la manière dont vos données sont utilisées, n'hésitez pas à me contacter à :",
+    privacy_policy_contact_email:
+      "<strong>Email :</strong> jonatha.teixeira.business@gmail.com",
+    privacy_policy_contact_address:
+      "<strong>Adresse :</strong> Avenida Afonso Pena, 1101 - Centro - Alfenas-MG",
+    privacy_policy_contact_phone:
+      "<strong>Téléphone :</strong> +55 35 98452 9241",
+    privacy_footer_link: "Politique de confidentialité",
+    consent_banner_text:
+      "Nous utilisons des cookies pour améliorer votre expérience. En continuant à naviguer sur le site, vous consentez à notre utilisation des cookies.",
+    consent_banner_cta: "En savoir plus",
+    consent_banner_btn_yes: "Accepter",
+    consent_banner_btn_no: "Refuser",
   },
   es: {
     home: "Inicio",
@@ -532,6 +685,7 @@ const translations = {
     card_info_title: "Acerca de este proyecto",
     learn_more: "Saber más",
     close: "Cerrar",
+    info_image: "Haz clic en las imágenes para ampliar",
     project_0_title: "Este sitio portfolio",
     project_0_description: [
       "Este es un sitio web personal de portfolio diseñado para mostrar mi trabajo profesional y habilidades en diseño. El sitio está construido con ReactJS, ofreciendo una experiencia de usuario dinámica y receptiva. Implementé varios elementos interactivos utilizando AOS (Animate on Scroll) para animaciones suaves y transiciones, haciendo que el sitio sea atractivo y vivo.",
@@ -703,25 +857,100 @@ const translations = {
 
       "El video destaca la accesibilidad de la tarjeta Viva Desconto Real, con una tarifa mensual baja que cubre a toda la familia y proporciona descuentos en varios establecimientos asociados. También se enfatiza la facilidad de uso, permitiendo a los usuarios disfrutar de los beneficios inmediatamente después de recibir su tarjeta. El objetivo del video es promover la tarjeta como una herramienta práctica y valiosa para las familias que buscan ahorrar en una amplia gama de servicios.",
     ],
-    project_16_title:
+    project_16_title: "Manual de Marca para CLASSIC",
+    project_16_description: [
+      "Este proyecto fue creado para establecer y estandarizar la identidad visual de CLASSIC Administrações e Participações Ltda.",
+      "El manual define el uso adecuado del logotipo, tipografía, colores y elementos visuales de la marca para garantizar la coherencia en todos los canales de comunicación.",
+    ],
+    project_16_detailed_description: [
+      "Este completo manual de marca fue desarrollado para establecer una identidad visual clara y coherente para CLASSIC Administrações e Participações Ltda. El objetivo era crear una imagen de marca sofisticada y profesional que reflejara los valores y servicios de la empresa en la administración y participación empresarial.",
+      "El diseño de la marca presenta un logotipo distintivo compuesto por formas estilizadas de 'S' entrelazadas sobre la palabra 'CLASSIC' en una tipografía elegante. El logotipo simboliza estabilidad, conexión y gestión profesional, transmitiendo la esencia de las actividades comerciales de la empresa.",
+      "Un aspecto clave de este proyecto es la paleta de colores cuidadosamente seleccionada, que incluye un azul marino profundo (#272E39), un dorado cálido (#EFD6AC) y un gris plateado claro (#ECECEC). Estos colores fueron elegidos para evocar una sensación de confianza, lujo y profesionalismo, alineándose perfectamente con el posicionamiento de la empresa en el mercado.",
+      "El sistema tipográfico incluye dos familias de fuentes principales: Baston Rounded Regular para el nombre CLASSIC, proporcionando un aspecto distintivo y moderno, y Jost para todos los textos de apoyo, asegurando una excelente legibilidad en varias aplicaciones y tamaños.",
+      "El manual proporciona directrices detalladas para el área protegida del logotipo, asegurando que la marca mantenga su integridad visual y legibilidad en todas las aplicaciones. También incluye especificaciones para el uso de versiones reducidas del logotipo en contextos donde el espacio es limitado, como en documentos sellados y perfiles de redes sociales.",
+      "En cuanto a la implementación, el manual ofrece especificaciones técnicas precisas con códigos de color CMYK, RGB, hexadecimal y Pantone para garantizar la coherencia del color en diferentes medios y procesos de impresión. Las directrices aseguran que la identidad de la marca permanezca coherente ya sea que se muestre digitalmente o en impresión.",
+      "Este manual de marca combina elementos de diseño elegantes con directrices prácticas, proporcionando a CLASSIC una identidad visual distintiva que comunica eficazmente sus valores corporativos mientras garantiza una aplicación coherente en todos los puntos de contacto de la marca.",
+    ],
+    project_17_title:
       "Creaciones de Diseño Visual para Publicaciones en Redes Sociales",
-    project_16_description:
+    project_17_description:
       "En este carrusel, presento una variedad de creaciones visuales diseñadas específicamente para publicaciones en redes sociales, con un enfoque en Instagram. Desde gráficos festivos hasta diseños promocionales, estos trabajos buscan captar la atención del público y comunicar mensajes de manera efectiva. Las técnicas de diseño incluyen tipografía vibrante, composiciones dinámicas y visuales llamativos adaptados a temas y eventos específicos.",
-    project_17_title: "Tarjetas de Visita – Diseños Tradicionales y Digitales",
-    project_17_description: [
+    project_18_title: "Tarjetas de Visita – Diseños Tradicionales y Digitales",
+    project_18_description: [
       "Aquí están algunos de mis diseños de tarjetas de visita, tanto en formato tradicional para impresión como en formato digital. Trabajo con Photoshop e Illustrator para asegurarme de que los diseños cumplan con las necesidades de cada cliente, enfocándome en la identidad visual, la claridad y el impacto.",
       "Ya sea para una empresa, un profesional independiente o una marca, los diseños que creo ayudan a dejar una excelente impresión. En todos los proyectos, aplico técnicas adecuadas a la identidad de cada cliente, creando tarjetas que se destacan y dejan una marca fuerte y profesional.",
     ],
-    project_18_title: "Diseños de Flyers",
-    project_18_description: [
+    project_19_title: "Diseños de Flyers",
+    project_19_description: [
       "Aquí están los diseños de flyers que he creado, tanto digitales como impresos. Tengo experiencia trabajando con ambos formatos utilizando Photoshop e Illustrator. Los diseños están destinados a captar la atención con elementos visualmente llamativos, haciendo que el contenido se destaque para un máximo compromiso.",
       "Ya sea para eventos, promociones o fines informativos, me enfoco en la claridad y el impacto, asegurando que cada flyer comunique su mensaje de manera efectiva mientras mantiene un atractivo estético.",
     ],
-    project_19_title: "Diversas Creaciones de Diseño Visual",
-    project_19_description: [
+    project_20_title: "Diversas Creaciones de Diseño Visual",
+    project_20_description: [
       "Aquí hay varias creaciones de diseño visual en diferentes formatos y con diversos propósitos. Desde la creación de marcas, anuncios, publicaciones en redes sociales, hasta pancartas y tarjetas de presentación, he trabajado extensamente con herramientas como Photoshop e Illustrator para dar vida a conceptos únicos.",
       "Cada diseño fue cuidadosamente elaborado para satisfacer las necesidades específicas del cliente, incorporando su identidad de marca, estilo y objetivos para crear visuales memorables y atractivos.",
     ],
+    privacy_policy_title: "Política de privacidad",
+    privacy_policy_intro:
+      "Esta política de privacidad explica cómo recojo, utilizo y protejo su información cuando visita mi sitio web de portafolio. Al usar este sitio, usted consiente las prácticas de datos descritas en esta política.",
+    privacy_policy_what_data_collect: "1. Información que recojo",
+    privacy_policy_data_description_a:
+      "No recojo información personal, como su nombre, dirección de correo electrónico.",
+    privacy_policy_data_description_b:
+      "<strong>Datos de Analytics:</strong> Utilizo Google Analytics para recopilar datos sobre cómo los visitantes interactúan con mi sitio web. Esto incluye información como su dirección IP, tipo de navegador, páginas visitadas, tiempo pasado en el sitio y enlaces clicados. Estos datos me ayudan a entender el tráfico del sitio y optimizar el contenido.",
+
+    privacy_policy_how_we_use_data: "2. Cómo utilizo la información",
+    privacy_policy_how_we_use_data_a:
+      "La información que recojo se utiliza para los siguientes fines:",
+    privacy_policy_usage_website_analytics:
+      "<strong>Analítica del sitio web:</strong> Utilizo Google Analytics para recopilar datos estadísticos sobre el uso del sitio.",
+    privacy_policy_usage_user_experience:
+      "<strong>Mejora de la experiencia del usuario:</strong> Al analizar el comportamiento del usuario, puedo identificar áreas de mejora y optimizar el diseño, asegurando que su experiencia sea fluida y agradable.",
+    privacy_policy_data_sharing: "3. Compartir y divulgar datos",
+    privacy_policy_data_sharing_a:
+      "No comparto sus datos personales con terceros a menos que sea requerido por la ley o necesario para cumplir con una solicitud de servicio. Por ejemplo:",
+    privacy_policy_sharing_service_providers:
+      "<strong>Proveedores de servicios:</strong> Los datos pueden ser compartidos con proveedores de servicios que ayudan con la analítica del sitio web o su mantenimiento.",
+    privacy_policy_sharing_legal_compliance:
+      "<strong>Cumplimiento legal:</strong> Puedo divulgar su información si es requerido por la ley o para proteger mis derechos.",
+    privacy_policy_cookies: "4. Cookies y tecnologías de seguimiento",
+    privacy_policy_cookies_a:
+      "Mi sitio web utiliza cookies y tecnologías de seguimiento similares para mejorar su experiencia de navegación. Las cookies son pequeños archivos almacenados en su dispositivo que ayudan a retener cierta información sobre sus preferencias o acciones en el sitio.",
+    privacy_policy_cookies_google_analytics:
+      "<strong>Cookies de Google Analytics:</strong> Estas cookies recopilan datos sobre cómo interactúa con mi sitio, como las páginas que visita, el tiempo que pasa en ellas y los enlaces que hace clic. Estos datos se utilizan únicamente para mejorar la experiencia del sitio.",
+    privacy_policy_cookies_consent_banner:
+      "<strong>Cookies del banner de consentimiento:</strong> Además, utilizo cookies para recordar su elección con respecto al banner de consentimiento. Estas cookies son estrictamente para asegurar que el aviso de consentimiento no aparezca cada vez que visite el sitio.",
+    privacy_policy_user_rights: "5. Sus derechos",
+    privacy_policy_user_rights_a: "Usted tiene el derecho de:",
+    privacy_policy_rights_access:
+      "<strong>Acceso:</strong> Solicitar acceso a los datos que pueda tener sobre usted.",
+    privacy_policy_rights_correction:
+      "<strong>Corrección:</strong> Solicitar correcciones si alguna información personal es inexacta o incompleta.",
+    privacy_policy_rights_deletion:
+      "<strong>Eliminación:</strong> Solicitar la eliminación de sus datos personales, sujeto a ciertas condiciones.",
+    privacy_policy_rights_withdrawal:
+      "<strong>Retiro de consentimiento:</strong> Puede retirar su consentimiento en cualquier momento. Sin embargo, tenga en cuenta que esto puede afectar su capacidad para usar ciertas funciones del sitio.",
+    privacy_policy_data_security: "6. Seguridad de los datos",
+    privacy_policy_security_description:
+      "Dado que utilizo <strong>Google Analytics</strong> para recopilar y almacenar datos, <strong>Google es responsable de garantizar la seguridad de los datos</strong> recopilados a través de sus servicios. Google toma las medidas de seguridad necesarias para proteger sus datos contra el acceso no autorizado, alteración o divulgación. Para obtener más información sobre cómo Google maneja sus datos, consulte la Política de privacidad de Google.",
+    privacy_policy_changes: "7. Cambios en esta política de privacidad",
+    privacy_policy_changes_description:
+      "Puedo actualizar esta política de privacidad de vez en cuando para reflejar cambios en mis prácticas o requisitos legales. Cualquier cambio se publicará en esta página y la política revisada será efectiva inmediatamente después de su publicación.",
+    privacy_policy_contact: "8. Contáctame",
+    privacy_policy_contact_a:
+      "Si tiene alguna pregunta o preocupación sobre esta política de privacidad o cómo se están utilizando sus datos, no dude en ponerse en contacto conmigo a:",
+    privacy_policy_contact_email:
+      "<strong>Email:</strong> jonatha.teixeira.business@gmail.com",
+    privacy_policy_contact_address:
+      "<strong>Dirección:</strong> Avenida Afonso Pena, 1101 - Centro - Alfenas-MG",
+    privacy_policy_contact_phone:
+      "<strong>Teléfono:</strong> +55 35 98452 9241",
+    privacy_footer_link: "Política de privacidad",
+    consent_banner_text:
+      "Usamos cookies para mejorar su experiencia. Al continuar navegando por el sitio, usted acepta el uso de cookies.",
+    consent_banner_cta: "Aprender más",
+    consent_banner_btn_yes: "Aceptar",
+    consent_banner_btn_no: "Rechazar",
   },
 };
 

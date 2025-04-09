@@ -91,6 +91,11 @@ export default function Header({ language, setLanguage }) {
       return;
     }
 
+    if (location.pathname === "/privacy-policy") {
+      setActive("");
+      return;
+    }
+
     const sections = document.querySelectorAll("section");
     const handleScroll = () => {
       let currentSection = "home";

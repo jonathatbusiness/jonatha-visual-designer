@@ -116,7 +116,7 @@ export default function Home({ language }) {
         <p className="about-text" data-aos="fade-right" data-aos-delay="500">
           {t("about_text_d")}
         </p>
-        <div className="about-video-container" data-aos="fade">
+        {/* <div className="about-video-container" data-aos="fade">
           <iframe
             className="about-video"
             src="https://www.youtube.com/embed/mkqPjc7iyQ0?si=VIITAwfgswwYsNgl"
@@ -125,7 +125,7 @@ export default function Home({ language }) {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
-        </div>
+        </div>*/}
       </section>
       <section id="contact" className="contact-section">
         <h2 className="contact-title" data-aos="fade">

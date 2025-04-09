@@ -64,6 +64,7 @@ const ProjectCard = ({ project, onOpenModal, language }) => {
               &#10095;
             </button>
           </div>
+
           <div className="carousel-indicators">
             {project.media.map((_, index) => (
               <span
@@ -74,6 +75,7 @@ const ProjectCard = ({ project, onOpenModal, language }) => {
                 onClick={() => setCurrentImageIndex(index)}
               />
             ))}
+            <div className="text-info">{t("info_image", language)}</div>
           </div>
         </div>
       );
@@ -90,11 +92,14 @@ const ProjectCard = ({ project, onOpenModal, language }) => {
       );
     } else {
       return (
-        <img
-          src={project.media}
-          alt={project.title}
-          onClick={handleImageClick}
-        />
+        <div className="only-image">
+          <img
+            src={project.media}
+            alt={project.title}
+            onClick={handleImageClick}
+          />
+          <div className="text-info-block">{t("info_image", language)}</div>
+        </div>
       );
     }
   };
