@@ -4,6 +4,11 @@ const translations = {
     about: "About Me",
     contact: "Contact Me",
     portfolio: "My Portfolio",
+    home_b: "Home",
+    about_b: "About",
+    contact_b: "Contact",
+    portfolio_b: "Portfolio",
+    language_b: "Langue",
     language: "Language",
     hello: "Hello",
     my_name_is: "My name is",
@@ -317,6 +322,10 @@ const translations = {
     about: "À propos de moi",
     contact: "Contactez-moi",
     portfolio: "Mon Portfolio",
+    home_b: "Accueil",
+    about_b: "À propos",
+    contact_b: "Contact",
+    portfolio_b: "Portfolio",
     language: "Langue",
     hello: "Bonjour",
     my_name_is: "Je m'appelle",
@@ -638,6 +647,11 @@ const translations = {
     contact: "Contáctame",
     portfolio: "Mi Portafolio",
     language: "Idioma",
+    home_b: "Inicio",
+    about_b: "Acerca",
+    contact_b: "Contacto",
+    portfolio_b: "Portafolio",
+    language_b: "Idioma",
     hello: "Hola",
     my_name_is: "Mi nombre es",
     visual_designer: "Diseñador Visual",
@@ -951,6 +965,293 @@ const translations = {
     consent_banner_cta: "Aprender más",
     consent_banner_btn_yes: "Aceptar",
     consent_banner_btn_no: "Rechazar",
+  },
+
+  br: {
+    home: "Início",
+    about: "Sobre Mim",
+    contact: "Entre em Contato",
+    portfolio: "Meu Portfólio",
+    language: "Idioma",
+    home_b: "Início",
+    about_b: "Sobre",
+    contact_b: "Contato",
+    portfolio_b: "Portfólio",
+    language_b: "Idioma",
+    hello: "Olá",
+    my_name_is: "Meu nome é",
+    visual_designer: "Designer Visual",
+    design_thinking: "Design Thinking",
+    problem_solving: "Resolução de Problemas",
+    ui_ux_design: "Design UI/UX",
+    collaboration_teamwork: "Colaboração e Trabalho em Equipe",
+    responsive_web_design: "Design de Sites Responsivo",
+    attention_to_detail: "Atenção aos Detalhes",
+    frontend_development: "Desenvolvimento Front-End (HTML, CSS, React)",
+    creative_thinking: "Pensamento Criativo",
+    adobe_creative_suite:
+      "Adobe Creative Suite (Photoshop, Illustrator, InDesign)",
+    client_focused_approach: "Abordagem Focada no Cliente",
+    interface_design: "Design de Interface",
+    empathy: "Empatia",
+    btn_portfolio_hero: "Acesse meu portfólio",
+    about_text_a:
+      "Como Designer Visual com 7 anos de experiência, sou especializado em criar designs intuitivos e centrados no usuário, que combinam funcionalidade e estética. Meu trabalho é movido por uma compreensão sólida de usabilidade e design de interação, garantindo que a experiência do usuário esteja sempre em primeiro plano.",
+    about_text_b:
+      "Eu me concentro em organizar o conteúdo de forma clara e fácil de navegar, garantindo que os usuários possam acessar rapidamente as informações ou recursos de que precisam. Meus designs priorizam a jornada do usuário, garantindo que cada ponto de contato seja fluido e envolvente.",
+    about_text_c:
+      "Sou altamente capacitado em ferramentas como Adobe Creative Suite, Figma, e tenho experiência em trabalhar com React e Electron para criar aplicativos web responsivos. Minha abordagem de design é fundamentada em empatia e colaboração. Estou sempre focado em ouvir o feedback dos usuários, iterando sobre os designs e refinando soluções para entregar experiências digitais envolventes e contínuas.",
+    about_text_d:
+      "Ao longo da minha carreira, apliquei consistentemente o design thinking e metodologias ágeis, permitindo que eu trabalhasse de forma eficaz em equipes multifuncionais. Meu objetivo é criar designs que não apenas atendam aos objetivos de negócios, mas também priorizem as necessidades do usuário final.",
+    contact_text_a:
+      "A comunicação está no coração de todo grande projeto. Se você está procurando um designer visual para dar vida às suas ideias, precisa de orientação sobre experiência do usuário ou apenas quer se conectar e compartilhar insights, estou aqui para conversar. Acredito que a colaboração leva às melhores soluções criativas, e adoraria explorar novas ideias com você.",
+    contact_text_b:
+      "Sinta-se à vontade para entrar em contato! Seja para discutir um projeto, colaborar ou apenas dar um oi, adoraria ouvir de você. Você pode me contatar por e-mail, telefone, LinkedIn ou GitHub. Vamos criar algo incrível juntos!",
+    portfolio_description_a:
+      "Como designer visual, sou especializado em criar experiências digitais intuitivas e envolventes. Minha expertise inclui design de sites, vídeos e imagens, tudo criado para proporcionar uma jornada de usuário fluida. Através do design thinking e de uma abordagem centrada no cliente, dou vida aos conceitos com um olhar atento aos detalhes.",
+    portfolio_description_b:
+      "Com anos de experiência, crio designs que não são apenas visualmente atraentes, mas também amigáveis ao usuário e acessíveis. Seja para um site, mídia interativa ou campanha de marca, meu foco está em criar histórias visuais envolventes que se conectem com o público. Meu processo inclui colaboração, prototipagem e iteração contínua para garantir um ajuste perfeito às necessidades do usuário.",
+    portfolio_title: "Portfólio",
+    portfolio_text:
+      "Clique nos botões abaixo para filtrar por tipo de projeto.",
+    section_all: "Mostrar tudo",
+    section_webdesign: "UX/Webdesign",
+    section_video: "Vídeos",
+    section_image: "Imagens",
+    load_more: "Carregar mais...",
+    card_info_title: "Sobre este projeto",
+    learn_more: "Saiba mais",
+    close: "Fechar",
+    info_image: "Clique nas imagens para ampliar",
+    project_0_title: "Este site de portfólio",
+    project_0_description: [
+      "Este é um site de portfólio pessoal criado para mostrar meu trabalho profissional e habilidades em design. O site foi construído com ReactJS, proporcionando uma experiência de usuário dinâmica e responsiva. Implementei vários elementos interativos usando AOS (Animate on Scroll) para animações suaves e transições, tornando o site envolvente e dinâmico.",
+      "Em termos de estrutura, otimizei o projeto separando o conteúdo em componentes reutilizáveis, como ProjectCard, que carrega dinamicamente as informações do projeto a partir do arquivo projectsContent.js. Isso reduz o código redundante e melhora a manutenção. Também implementei filtragem de projetos por categorias, permitindo que os usuários explorem facilmente diferentes tipos de projetos, desde design de sites até vídeos e imagens. O site suporta vários idiomas utilizando um sistema de tradução, oferecendo uma experiência localizada para diferentes usuários.",
+    ],
+    project_0_detailed_description: [
+      "Este site de portfólio foi criado com ReactJS para garantir uma experiência de aplicação de página única (SPA) contínua. A arquitetura baseada em componentes do React me permitiu dividir o site em partes modulares, facilitando o gerenciamento e a extensão do código. Usei React Router para uma navegação suave entre as páginas, garantindo uma experiência fluida enquanto os usuários transitam entre as seções.",
+      "Para maior interatividade, integrei o AOS (Animate on Scroll), uma biblioteca que permite animações suaves à medida que os usuários rolam pela página. Isso adiciona dinamismo e mantém o usuário engajado enquanto explora meu trabalho. Além disso, usei React-Icons para adicionar ícones modernos e limpos às várias seções do site.",
+      "O site foi projetado para lidar com múltiplos projetos de forma dinâmica. Cada projeto é representado por um componente ProjectCard, que busca dados do arquivo projectsContent.js. Isso permite atualizar e manter o portfólio facilmente, sem a necessidade de reescrever ou duplicar código. Também implementei um sistema de filtragem, permitindo que os usuários classifiquem projetos por categoria, como design de sites, vídeos ou imagens, oferecendo uma maneira fácil de navegar pelas minhas diversas habilidades.",
+      "Além do design funcional, prestei atenção à estética visual. Usei fontes personalizadas, esquemas de cores vibrantes e um layout responsivo para garantir que o site fique ótimo em todos os dispositivos. O site foi otimizado para desempenho e SEO, permitindo que ele carregue rapidamente e seja encontrado nos motores de busca.",
+      "No geral, este portfólio reflete minhas habilidades em desenvolvimento front-end, design UI/UX e minha capacidade de criar experiências digitais interativas, visualmente atraentes e funcionais.",
+    ],
+    project_1_title: "Projeto de Convite de Casamento",
+    project_1_description: [
+      "Este projeto exibe um belo e elegante convite de casamento desenvolvido utilizando HTML, CSS e JavaScript. O convite possui um fundo interativo com partículas, criando um efeito dinâmico, agregando sofisticação e elegância ao design. O layout é responsivo, tornando-o acessível e visualmente atraente em todos os dispositivos, de smartphones a desktops.",
+      "Os principais recursos deste projeto incluem o uso de fontes personalizadas do Google Fonts, um elemento de selo de cera que dá um toque tradicional, e ícones personalizados representando o local, RSVP e seção de presentes. Estes elementos se unem para proporcionar uma experiência visual agradável e fácil de usar para todos os usuários.",
+    ],
+    project_1_detailed_description: [
+      "Este projeto de convite de casamento combina elegância e tecnologia moderna para criar uma experiência inesquecível para os usuários. Desenvolvido com HTML, CSS e JavaScript, ele apresenta um design responsivo que se adapta perfeitamente a dispositivos móveis, tablets e desktops, garantindo uma experiência suave em qualquer plataforma.",
+      "O centro deste convite é o fundo interativo com partículas, alimentado pela biblioteca Particles.js. Este recurso cria um efeito dinâmico e visualmente cativante, que melhora a estética geral, dando à página um toque de sofisticação e elegância. O fundo se ajusta conforme a interação do usuário, fazendo o design parecer vivo e envolvente.",
+      "Fontes personalizadas do Google Fonts foram cuidadosamente escolhidas para adicionar um visual moderno e refinado ao design. O convite também inclui um elemento de selo de cera, que adiciona um toque tradicional e clássico, contrastando lindamente com o ambiente digital contemporâneo, criando uma mistura perfeita de antigo e novo.",
+      "Para melhorar ainda mais a experiência do usuário, o convite inclui ícones intuitivos representando seções como o local, RSVP e lista de presentes. Esses ícones não apenas ajudam os usuários a navegar facilmente pela página, mas também adicionam um toque visual encantador que combina com o tema geral do casamento.",
+      "No geral, este projeto é uma fusão de habilidades técnicas e criatividade, resultando em um convite de casamento visualmente agradável e funcional, que é ao mesmo tempo moderno e atemporal. Ele mostra o poder de combinar princípios de design com recursos interativos, oferecendo um convite digital envolvente para uma ocasião especial.",
+    ],
+    project_2_title: "Meu site de portfólio – versão 1",
+    project_2_description: [
+      "Este projeto apresenta um site moderno e profissional de portfólio, criado com HTML, CSS e JavaScript. O site serve como um currículo digital, exibindo amostras de portfólio, informações de contato e experiência profissional de forma visualmente envolvente e acessível.",
+      "Os principais recursos deste projeto incluem um design totalmente responsivo, navegação suave e uma experiência de usuário intuitiva. O site foi projetado para ser amigável para dispositivos móveis, garantindo acessibilidade em diferentes dispositivos, de desktops a smartphones.",
+    ],
+    project_2_detailed_description: [
+      "O site de portfólio é estruturado para destacar o trabalho profissional do usuário, proporcionando uma interface elegante e fácil de usar. O design é limpo e moderno, focando em exibir os projetos de forma organizada e visualmente atraente.",
+      "Construído com HTML, CSS e JavaScript, o site inclui elementos interativos, como um menu lateral para navegação suave. O layout é totalmente responsivo, garantindo que os usuários possam acessar e navegar pelo conteúdo confortavelmente em qualquer dispositivo.",
+      "Um destaque deste portfólio é o uso de princípios de design minimalistas, garantindo que o foco permaneça no trabalho apresentado. A tipografia e a paleta de cores foram cuidadosamente selecionadas para melhorar a legibilidade e o equilíbrio visual.",
+      "O portfólio também inclui uma seção de contato, onde os visitantes podem facilmente entrar em contato por meio de uma funcionalidade de mensagem direta. Além disso, o projeto é open-source, permitindo personalização e contribuições da comunidade de desenvolvedores.",
+      "No geral, este projeto representa uma combinação de expertise técnica e estética de design, oferecendo uma presença online elegante e funcional para profissionais que desejam mostrar seu trabalho de forma eficaz.",
+    ],
+    project_3_title: "Meu site de portfólio – versão 2",
+    project_3_description: [
+      "Este projeto é uma versão aprimorada do meu site de portfólio anterior, apresentando uma experiência do usuário mais refinada, melhor desempenho e funcionalidades adicionais. Criado com as mais recentes tecnologias web, esta versão apresenta um design dinâmico e moderno.",
+      "As melhorias nesta versão incluem animações avançadas, um sistema de navegação mais interativo e melhor acessibilidade. O site agora possui tempos de carregamento otimizados e um layout mais responsivo que se adapta ainda melhor a diferentes tamanhos de tela.",
+    ],
+    project_3_detailed_description: [
+      "Esta segunda versão do meu site de portfólio constrói sobre a fundação da primeira versão, incorporando novos elementos de design e interatividade aprimorada para criar uma experiência mais envolvente.",
+      "Desenvolvido com HTML, CSS e JavaScript, esta versão inclui animações refinadas e transições aprimoradas, que conferem ao site uma aparência suave e polida. O sistema de navegação foi reestruturado para fornecer uma experiência de navegação sem interrupções, com melhor usabilidade e recursos de acessibilidade.",
+      "Uma das principais melhorias é o desempenho otimizado, garantindo carregamentos mais rápidos e melhor gerenciamento de conteúdo multimídia. Além disso, o site agora integra um formulário de contato avançado e filtragem interativa de portfólio, permitindo que os visitantes naveguem pelo meu trabalho de forma mais eficiente.",
+      "Este projeto representa meu crescimento como designer e desenvolvedor, demonstrando um conjunto de habilidades aprimorado nas tecnologias web modernas. Serve como um testemunho da minha capacidade de criar experiências digitais esteticamente agradáveis, funcionais e fáceis de usar.",
+    ],
+    project_4_title: "Texto para Fala",
+    project_4_description: [
+      "Este projeto converte texto em fala e salva o resultado como um arquivo MP3. Ele usa os Serviços de Fala do Microsoft Azure juntamente com JavaScript para gerar as vozes. O projeto também utiliza o OpenAI ChatGPT para auxiliar na geração do código JavaScript necessário para a funcionalidade.",
+      "Para que o projeto funcione corretamente, é necessário configurá-lo com uma conta do Microsoft Azure e uma chave de assinatura. Siga os passos fornecidos no projeto para a configuração adequada e a configuração da voz.",
+    ],
+    project_4_detailed_description: [
+      "Este projeto Web de Texto para Fala converte texto escrito em fala e salva como um arquivo MP3. Ele utiliza os Serviços de Fala do Microsoft Azure e JavaScript para gerar vozes realistas, com opções de personalização para selecionar diferentes vozes.",
+      "O projeto foi criado como um estudo em JavaScript e inclui a integração do OpenAI ChatGPT para geração de código, demonstrando o poder da IA no desenvolvimento web. Os usuários precisam configurar sua conta do Microsoft Azure para inserir a Chave de Assinatura necessária e a Região para o Speech SDK.",
+      "Para tornar o projeto totalmente funcional, os usuários devem preencher sua Chave de Assinatura e Região no código JavaScript fornecido. Além disso, as opções de voz podem ser personalizadas editando o arquivo HTML e escolhendo entre as vozes disponíveis, como Amber ou Brandon. Para mais detalhes, os usuários podem consultar a documentação dos Serviços Cognitivos de Fala da Microsoft para encontrar vozes e regiões suportadas.",
+      "Este projeto é um excelente exemplo do uso de tecnologias web modernas para criar uma ferramenta totalmente funcional de síntese de fala, demonstrando tanto proficiência técnica quanto a aplicação prática de serviços baseados em nuvem.",
+    ],
+    project_5_title: "Convite de Aniversário Online",
+    project_5_description: [
+      "Olá! Obrigado pela sua visita. Criei este projeto para a festa de primeiro aniversário do meu filho.",
+      "Adicionei um script para ler as informações da 'Busca' na URL, então, se você adicionar '?nome=,%20NomeDoConvidado' no final da URL, o nome do convidado aparecerá na caixa verde, como 'Oi, João!'. Se você enviar o link sem essas informações, aparecerá apenas 'Oi!'",
+    ],
+    project_5_detailed_description: [
+      "Este projeto de convite de aniversário online foi criado para celebrar o primeiro aniversário do meu filho. Queria criar algo pessoal, interativo e único, então desenvolvi uma página web que funciona como um convite digital.",
+      "O convite tem um design responsivo, elementos animados usando Animate.css, ilustrações personalizadas e uma estética visual amigável – toda a direção de arte e os elementos gráficos foram criados por mim.",
+      "Uma característica interessante do projeto é seu sistema dinâmico de personalização. Usando JavaScript, o nome do convidado é extraído da URL e mostrado dentro de uma caixa verde, com uma saudação como 'Oi, João!'. Se não for inserido nenhum nome, ele exibirá apenas 'Oi!'.",
+      "O projeto foi desenvolvido usando HTML, CSS e JavaScript puro. Também inclui ícones do Bootstrap Icons e fontes do Google Fonts para uma apresentação agradável. Um iframe do Google Maps permite exibir o local da festa, que neste caso é a CN Tower em Toronto, Canadá.",
+      "Este projeto combina criatividade visual, interatividade e funcionalidade, oferecendo uma maneira encantadora e prática de convidar pessoas para uma ocasião muito especial.",
+    ],
+    project_6_title: "Catálogo de Cursos Online",
+    project_6_description: [
+      "Este projeto foi criado para oferecer soluções de treinamento digital personalizadas para empresas e equipes.",
+      "Aqui, os usuários podem explorar uma variedade de cursos online projetados para abordar temas atuais e relevantes, todos acessíveis a partir de qualquer dispositivo com acesso à Internet.",
+    ],
+    project_6_detailed_description: [
+      "Este projeto de catálogo de cursos online foi desenvolvido para facilitar o acesso a conteúdo educacional relevante e especializado. O objetivo era criar uma plataforma onde as empresas pudessem oferecer treinamento contínuo para suas equipes, com cursos adaptáveis às necessidades de cada organização.",
+      "O design da plataforma é limpo, moderno e totalmente responsivo, garantindo que os usuários possam navegar de maneira intuitiva de qualquer dispositivo. A página apresenta um layout atraente com imagens destacadas de cada curso e uma estrutura que destaca as categorias de formação oferecidas.",
+      "Uma característica principal deste projeto é sua flexibilidade. Os cursos são organizados em diferentes categorias e os usuários podem explorar cada tema com apenas um clique. Além disso, cada curso tem uma página detalhada, que é aberta de maneira interativa, mostrando conteúdo do curso, duração e materiais necessários.",
+      "O sistema foi desenvolvido utilizando HTML, CSS e JavaScript. Para a interatividade, são usadas ferramentas como modais e botões interativos para melhorar a experiência do usuário. A implementação de animações suaves e transições permite uma navegação fluida e envolvente.",
+      "Este projeto também inclui um design totalmente personalizável, permitindo que as empresas adaptem a estética do catálogo de cursos à sua identidade visual. Isso significa que os cursos podem ser apresentados com as cores, logos e fontes da empresa, garantindo uma experiência personalizada e profissional.",
+      "Em termos de tecnologia, foi adotada uma abordagem baseada nos padrões modernos da web, garantindo que o projeto seja acessível, rápido e fácil de manter. Também foi incluída uma seção interativa onde os usuários podem ver uma prévia dos cursos, e um sistema de navegação com filtros facilita a busca de conteúdo específico por área de interesse.",
+      "Este catálogo de cursos online combina design moderno, flexibilidade de conteúdo e uma experiência de usuário altamente interativa, oferecendo uma solução eficaz para o aprendizado corporativo e a formação contínua das equipes.",
+    ],
+    project_7_title: "Institucional C&C",
+    project_7_description: [
+      "O vídeo institucional da C&C foi criado para transmitir a essência da marca de forma dinâmica e impactante, combinando elementos visuais modernos com uma narrativa envolvente. A produção consiste em várias cenas que destacam os valores da empresa, como excelência na execução, inovação e compromisso com os clientes.",
+      "Através de tomadas aéreas que capturam a cidade ao amanhecer e imagens vibrantes de funcionários e clientes interagindo com os produtos, o vídeo ilustra o crescimento e o papel da C&C no mercado. A transição entre essas cenas é fluida, acompanhada de elementos gráficos que reforçam as mensagens chave da empresa, como 'visão', 'missão' e 'valores', tudo com uma paleta de cores que representa a identidade visual da marca.",
+      "Além disso, a interação entre os funcionários e os momentos de trabalho em equipe durante reuniões e apresentações tornam o vídeo ainda mais pessoal e próximo do público. O vídeo também utiliza tipografia moderna e efeitos visuais no After Effects, o que dá um toque de sofisticação na comunicação da marca. Com uma estética moderna alinhada ao propósito da empresa, o vídeo institucional transmite confiança e solidez, destacando a C&C como uma marca inovadora e comprometida com a qualidade e o bem-estar dos seus clientes.",
+    ],
+    project_8_title:
+      "Vídeo Institucional para a Plataforma de Aprendizagem da Cotrijal",
+    project_8_description: [
+      "Este projeto apresenta um vídeo institucional realizado para a Cotrijal, uma cooperativa brasileira, mostrando sua nova plataforma educacional. O vídeo destaca os valores e a missão da empresa por meio de uma narrativa dinâmica, imagens envolventes e cenas impactantes. A música de fundo é energética e motivacional, culminando em um final inspirador e poderoso. O vídeo foi criado usando elementos feitos sob medida, animações e sobreposições de texto que capturam a essência da plataforma, projetada para melhorar a experiência de aprendizagem dos membros da Cotrijal.",
+    ],
+    project_9_title: "Capacitação NR 35 - Trabalho em Altura",
+    project_9_description: [
+      "Este projeto é uma série de vídeos de capacitação sobre a NR 35, a normativa brasileira para trabalho em altura. O vídeo foi projetado para educar os trabalhadores sobre as precauções e procedimentos de segurança necessários para realizar tarefas em altura de acordo com a regulamentação.",
+      "O vídeo apresenta elementos dinâmicos e um design claro, com uma identidade visual criada pelo designer, incluindo gráficos instrutivos e narração humana. À medida que cada módulo é completado, uma marca de verificação aparece abaixo do vídeo, indicando a finalização daquela parte da capacitação.",
+      "O vídeo destaca os equipamentos importantes e as etapas necessárias para realizar trabalhos de forma segura em altura, como o uso correto de EPI (Equipamento de Proteção Individual) e EPC (Equipamento de Proteção Coletiva).",
+    ],
+    project_10_title: "Teaser de Capacitação de Integração Institucional",
+    project_10_description: [
+      "Este é um teaser para a capacitação de Integração Institucional desenvolvida para a Cotrijal. O vídeo é curto, com menos de 10 segundos, e apresenta música dinâmica e energética. Mostra um design em grade com trechos de vários vídeos da capacitação, oferecendo uma prévia do conteúdo do curso.",
+      "O vídeo destaca a cultura da empresa, seus valores e práticas empresariais, convidando os funcionários a participar da capacitação completa para aprender mais sobre as operações e a ética da Cotrijal.",
+    ],
+    project_11_title:
+      "Treinamento Eco Energia - Compreendendo as Tarifas e Gestão de Consumo",
+    project_11_description: [
+      "Este vídeo de treinamento faz parte da iniciativa Eco Energia da Cotrijal, que foca em educar os colaboradores sobre o consumo de energia, tipos de tarifas e gestão de demanda. O vídeo apresenta gráficos animados envolventes, com uma identidade visual fresca e leve, desenvolvida pela equipe do projeto. A narração é feita por uma voz humana, garantindo comunicação clara dos conceitos, enquanto a música de fundo energética cria um tom positivo e motivador para o conteúdo.",
+      "Ao longo do vídeo, os espectadores são apresentados a diferentes modelos de tarifas e como eles impactam os custos de energia. Gráficos visualmente atraentes destacam pontos chave sobre cada tipo de tarifa, facilitando a compreensão de como essas tarifas afetam o consumo de energia nas respectivas unidades. O objetivo do treinamento é capacitar os colaboradores com o conhecimento necessário para gerenciar o uso de energia de forma mais eficaz, alinhado aos objetivos de sustentabilidade e respeito ao meio ambiente da Cotrijal.",
+    ],
+    project_12_title:
+      "Treinamento sobre Cooperativismo - Compreendendo o Modelo Cooperativo",
+    project_12_description: [
+      "Este vídeo de treinamento foca em explicar o conceito de cooperativismo e como ele funciona dentro da Cotrijal. O vídeo é apresentado em um estilo de animação de quadro branco, onde uma mão escreve os pontos principais, complementado com gráficos animados e elementos de movimento para manter os espectadores engajados. A narração é clara e informativa, feita por uma voz humana para guiar o público pelo conteúdo. A música de fundo é energética, criando um ambiente motivador para manter os espectadores interessados.",
+      "Ao longo do vídeo, vários aspectos do modelo cooperativo são explorados, incluindo como as cooperativas funcionam, as responsabilidades compartilhadas pelos membros e os benefícios financeiros de ser parte de uma cooperativa. Eu desenvolvi a identidade visual e o design do vídeo, criando uma aparência coesa e profissional. O objetivo é educar os colaboradores da Cotrijal sobre os valores e vantagens do sistema cooperativo.",
+    ],
+    project_13_title: "Segurança da Informação - Estudo de Caso sobre Phishing",
+    project_13_description: [
+      "Este vídeo serve como um estudo de caso educacional sobre phishing, uma ameaça comum à segurança da informação. O vídeo utiliza uma mistura de animação de quadro branco, elementos animados e design em movimento para ilustrar os perigos dos ataques de phishing. Ele apresenta personagens desenvolvidos pela equipe de design da Getnet, tornando o conteúdo envolvente e relevante. A identidade visual do vídeo, incluindo o design e o roteiro adaptado, foi criada por mim, garantindo uma aparência profissional e coesa para garantir que a mensagem seja comunicada de forma eficaz.",
+      "O vídeo segue a história de Jonas, um colaborador da Getnet, que encontra uma fraude de phishing enquanto tenta gerenciar sua vida digital. A narração é feita por uma voz humana, guiando o público pelos passos do caso, enquanto a música de fundo ajusta seu tom conforme a situação – calma durante os momentos normais e mais séria ao destacar ameaças potenciais. Este enfoque visa manter os espectadores atentos, enquanto os educa sobre segurança da informação de uma maneira prática e relevante.",
+    ],
+    project_14_title:
+      "Aplicativo de Contabilidade Preston - Vídeo de Apresentação de Marketing",
+    project_14_description: [
+      "Este é um vídeo de apresentação de marketing para o aplicativo de contabilidade Preston, projetado para mostrar seus recursos e funcionalidades. O vídeo utiliza uma combinação de animação de quadro branco, design em movimento e narração humana para apresentar o aplicativo de forma envolvente e profissional. A identidade visual do vídeo foi desenvolvida por mim, com base na marca da Preston, e eu também criei o roteiro e editei o vídeo. A música tem um tom energético, porém corporativo, adequado para uma apresentação de negócios.",
+      "No vídeo, os espectadores são apresentados aos principais recursos do aplicativo, incluindo uma interface dinâmica e simples que facilita o gerenciamento de tarefas contábeis. Um breve tutorial é fornecido para guiar os usuários pelas funcionalidades mais importantes do aplicativo, ajudando-os a entender como navegar e usá-lo de maneira eficaz. O objetivo do vídeo é apresentar o aplicativo como uma ferramenta valiosa para os clientes e parceiros da Preston, destacando sua praticidade e facilidade de uso.",
+    ],
+    project_15_title:
+      "Cartão Viva Desconto Real - Vídeo de Apresentação de Marketing",
+    project_15_description: [
+      "Este é um vídeo de apresentação de marketing para o cartão Viva Desconto Real, que é um cartão de descontos oferecendo benefícios exclusivos para seus usuários. O vídeo utiliza gráficos em movimento e texto para explicar os benefícios e características do cartão. Os visuais foram projetados para destacar a variedade de serviços e descontos disponíveis para os titulares do cartão, incluindo saúde, estética, esportes e muito mais. A identidade visual do cartão e da marca foi desenvolvida por mim, garantindo uma aparência coesa e profissional ao longo do vídeo.",
+      "O vídeo destaca como o cartão Viva Desconto Real é acessível, com uma taxa mensal baixa que cobre toda a família e oferece descontos em vários estabelecimentos parceiros. Também é enfatizada a facilidade de uso, permitindo que os usuários desfrutem dos benefícios imediatamente após receberem seu cartão. O objetivo do vídeo é promover o cartão como uma ferramenta prática e valiosa para famílias que buscam economizar em uma ampla gama de serviços.",
+    ],
+    project_16_title: "Manual de Marca para CLASSIC",
+    project_16_description: [
+      "Este projeto foi criado para estabelecer e padronizar a identidade visual para a CLASSIC Administrações e Participações Ltda.",
+      "O manual descreve o uso adequado do logotipo, tipografia, cores e elementos visuais da marca para garantir consistência em todos os canais de comunicação.",
+    ],
+    project_16_detailed_description: [
+      "Este manual de marca completo foi desenvolvido para estabelecer uma identidade visual clara e coesa para a CLASSIC Administrações e Participações Ltda. O objetivo era criar uma imagem de marca sofisticada e profissional que refletisse os valores e serviços da empresa em administração e participação empresarial.",
+      "O design da marca apresenta um logotipo distinto composto por formas estilizadas de 'S' entrelaçadas sobre a palavra 'CLASSIC' em tipografia elegante. O logotipo simboliza estabilidade, conexão e gestão profissional, transmitindo a essência das atividades comerciais da empresa.",
+      "Um aspecto chave deste projeto é a paleta de cores cuidadosamente selecionada, que inclui um azul marinho profundo (#272E39), um dourado quente (#EFD6AC) e um cinza prata claro (#ECECEC). Essas cores foram escolhidas para evocar uma sensação de confiança, luxo e profissionalismo, alinhando-se perfeitamente ao posicionamento da empresa no mercado.",
+      "O sistema tipográfico inclui duas famílias de fontes principais: Baston Rounded Regular para o nome CLASSIC, proporcionando um visual distinto e moderno, e Jost para todos os textos de apoio, garantindo excelente legibilidade em várias aplicações e tamanhos.",
+      "O manual fornece diretrizes detalhadas para a área protegida do logotipo, garantindo que a marca mantenha sua integridade visual e legibilidade em todas as aplicações. Também inclui especificações para o uso de versões reduzidas do logotipo em contextos onde o espaço é limitado, como documentos com carimbo e perfis de redes sociais.",
+      "Quanto à implementação, o manual oferece especificações técnicas precisas com códigos de cores CMYK, RGB, hexadecimal e Pantone para garantir consistência de cor em diferentes mídias e processos de impressão. As diretrizes asseguram que a identidade da marca permaneça coesa, seja exibida digitalmente ou impressa.",
+      "Este manual de marca combina elementos de design elegantes com diretrizes práticas, fornecendo à CLASSIC uma identidade visual distintiva que comunica efetivamente seus valores corporativos, enquanto garante uma aplicação consistente em todos os pontos de contato da marca.",
+    ],
+    project_17_title:
+      "Criações de Design Visual para Postagens em Redes Sociais",
+    project_17_description:
+      "Neste carrossel, apresento uma variedade de criações visuais desenvolvidas especificamente para postagens em redes sociais, com foco no Instagram. De gráficos festivos a layouts promocionais, esses designs têm como objetivo engajar o público e comunicar mensagens de forma eficaz. As técnicas de design incluem tipografia vibrante, composições dinâmicas e visuais chamativos adaptados a temas e eventos específicos.",
+    project_18_title: "Cartões de Visita – Designs Tradicionais e Digitais",
+    project_18_description: [
+      "Aqui estão alguns dos meus designs de cartões de visita, tanto no formato tradicional impresso quanto no formato digital. Trabalho com Photoshop e Illustrator para garantir designs que atendem às necessidades de cada cliente, com foco em identidade visual, clareza e impacto.",
+      "Seja para uma empresa, um freelancer ou uma marca, os designs que crio ajudam a deixar uma excelente impressão. Em todos os projetos, aplico técnicas adequadas à identidade de cada cliente, criando cartões que se destacam e deixam uma marca forte e profissional.",
+    ],
+    project_19_title: "Design de Flyers",
+    project_19_description: [
+      "Aqui estão os designs de flyers que criei, tanto digitais quanto impressos. Tenho experiência em trabalhar com ambos os formatos usando Photoshop e Illustrator. Os designs têm como objetivo capturar a atenção com elementos visuais chamativos, fazendo com que o conteúdo se destaque para um máximo de engajamento.",
+      "Seja para eventos, promoções ou fins informativos, eu me concentro na clareza e no impacto, garantindo que cada flyer comunique sua mensagem de forma eficaz, mantendo o apelo estético.",
+    ],
+    project_20_title: "Diversas Criações de Design Visual",
+    project_20_description: [
+      "Aqui estão várias criações de design visual em diferentes formatos e com diversos propósitos. Desde branding, anúncios, postagens em redes sociais até banners e cartões de visita, trabalhei extensivamente com ferramentas como Photoshop e Illustrator para dar vida a conceitos únicos.",
+      "Cada design foi cuidadosamente elaborado para atender às necessidades específicas do cliente, incorporando sua identidade de marca, estilo e objetivos para criar visuais memoráveis e envolventes.",
+    ],
+    privacy_policy_title: "Política de Privacidade",
+    privacy_policy_intro:
+      "Esta política de privacidade explica como eu coleo, utilizo e protejo suas informações quando você visita meu site de portfólio. Ao usar este site, você concorda com as práticas de dados descritas nesta política.",
+    privacy_policy_what_data_collect: "1. Informações que Eu Coleto",
+    privacy_policy_data_description_a:
+      "Eu não coleto informações pessoais, como seu nome ou endereço de e-mail.",
+    privacy_policy_data_description_b:
+      "<strong>Dados de Análise:</strong> Eu utilizo o Google Analytics para coletar dados sobre como os visitantes interagem com meu site. Isso inclui informações como seu endereço IP, tipo de navegador, páginas visitadas, tempo gasto no site e links clicados. Esses dados me ajudam a entender o tráfego do site e otimizar o conteúdo.",
+
+    privacy_policy_how_we_use_data: "2. Como Eu Uso as Informações",
+    privacy_policy_how_we_use_data_a:
+      "As informações que coleto são usadas para os seguintes fins:",
+    privacy_policy_usage_website_analytics:
+      "<strong>Analytics do Site:</strong> Eu uso o Google Analytics para coletar dados estatísticos sobre o uso do site.",
+    privacy_policy_usage_user_experience:
+      "<strong>Melhoria da Experiência do Usuário:</strong> ao analisar o comportamento do usuário, posso identificar áreas de melhoria e otimizar o design, garantindo que sua experiência seja fluida e agradável.",
+    privacy_policy_data_sharing: "3. Compartilhamento e Divulgação de Dados",
+    privacy_policy_data_sharing_a:
+      "Eu não compartilho seus dados pessoais com terceiros, a menos que seja exigido por lei ou necessário para cumprir uma solicitação de serviço. Por exemplo:",
+    privacy_policy_sharing_service_providers:
+      "<strong>Provedores de Serviço:</strong> os dados podem ser compartilhados com provedores de serviços que auxiliam na análise ou manutenção do site.",
+    privacy_policy_sharing_legal_compliance:
+      "<strong>Conformidade Legal:</strong> Eu posso divulgar suas informações se exigido por lei ou para proteger meus direitos.",
+    privacy_policy_cookies: "4. Cookies e Tecnologias de Rastreamento",
+    privacy_policy_cookies_a:
+      "Meu site usa cookies e tecnologias de rastreamento semelhantes para melhorar sua experiência de navegação. Cookies são pequenos arquivos armazenados no seu dispositivo que ajudam a reter certas informações sobre suas preferências ou ações no site.",
+    privacy_policy_cookies_google_analytics:
+      "<strong>Cookies do Google Analytics:</strong> esses cookies coletam dados sobre como você interage com o meu site, como quais páginas você visita, o tempo que passa nelas e os links clicados. Esses dados são usados exclusivamente para melhorar a experiência no site.",
+    privacy_policy_cookies_consent_banner:
+      "<strong>Cookies de Banner de Consentimento:</strong> adicionalmente, eu uso cookies para lembrar sua escolha sobre o banner de consentimento. Esses cookies são estritamente para garantir que o aviso de consentimento não apareça toda vez que você visitar o site.",
+    privacy_policy_user_rights: "5. Seus Direitos",
+    privacy_policy_user_rights_a: "Você tem o direito de:",
+    privacy_policy_rights_access:
+      "<strong>Acesso:</strong> solicitar acesso a qualquer dado que eu possa ter sobre você.",
+    privacy_policy_rights_correction:
+      "<strong>Correção:</strong> solicitar correções caso algum dado pessoal esteja impreciso ou incompleto.",
+    privacy_policy_rights_deletion:
+      "<strong>Exclusão:</strong> solicitar a exclusão de seus dados pessoais, sujeito a certas condições.",
+    privacy_policy_rights_withdrawal:
+      "<strong>Retirada de Consentimento:</strong> você pode retirar seu consentimento a qualquer momento. No entanto, observe que isso pode afetar sua capacidade de usar certos recursos do site.",
+    privacy_policy_data_security: "6. Segurança dos Dados",
+    privacy_policy_security_description:
+      "Como eu uso <strong>Google Analytics</strong> para coletar e armazenar dados, <strong>o Google é responsável por garantir a segurança dos dados</strong> coletados por seus serviços. O Google adota as medidas de segurança necessárias para proteger seus dados contra acesso não autorizado, alteração ou divulgação. Para mais informações sobre como o Google lida com seus dados, consulte a Política de Privacidade do Google.",
+    privacy_policy_changes: "7. Alterações nesta Política de Privacidade",
+    privacy_policy_changes_description:
+      "Eu posso atualizar esta Política de Privacidade de tempos em tempos para refletir mudanças nas minhas práticas ou exigências legais. Quaisquer mudanças serão postadas nesta página e a política revisada será eficaz imediatamente após sua publicação.",
+    privacy_policy_contact: "8. Entre em Contato",
+    privacy_policy_contact_a:
+      "Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade ou sobre como seus dados estão sendo usados, sinta-se à vontade para entrar em contato comigo através de:",
+    privacy_policy_contact_email:
+      "<strong>Email:</strong> jonatha.teixeira.business@gmail.com",
+    privacy_policy_contact_address:
+      "<strong>Endereço:</strong> Avenida Afonso Pena, 1101 - Centro - Alfenas-MG",
+    privacy_policy_contact_phone:
+      "<strong>Telefone:</strong> +55 35 98452 9241",
+    privacy_footer_link: "Política de Privacidade",
+    consent_banner_text:
+      "Usamos cookies para melhorar sua experiência. Ao continuar navegando no site, você consente com o uso de cookies.",
+    consent_banner_cta: "Saiba mais",
+    consent_banner_btn_yes: "Aceitar",
+    consent_banner_btn_no: "Recusar",
   },
 };
 

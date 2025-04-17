@@ -45,16 +45,20 @@ export default function Header({ language, setLanguage }) {
   };
 
   const menuItems = [
-    { id: "home", label: t("home"), action: scrollToTop },
-    { id: "about", label: t("about"), action: () => scrollToSection("about") },
+    { id: "home", label: t("home_b"), action: scrollToTop },
+    {
+      id: "about",
+      label: t("about_b"),
+      action: () => scrollToSection("about"),
+    },
     {
       id: "contact",
-      label: t("contact"),
+      label: t("contact_b"),
       action: () => scrollToSection("contact"),
     },
     {
       id: "portfolio",
-      label: t("portfolio"),
+      label: t("portfolio_b"),
       action: () => navigate("/portfolio"),
     },
   ];
@@ -151,7 +155,7 @@ export default function Header({ language, setLanguage }) {
                         toggleMobileMenu();
                       }}
                     >
-                      Home
+                      {t("home_b")}
                     </a>
                   </li>
                   <li>
@@ -162,7 +166,7 @@ export default function Header({ language, setLanguage }) {
                         toggleMobileMenu();
                       }}
                     >
-                      About Me
+                      {t("about_b")}
                     </a>
                   </li>
                   <li>
@@ -173,12 +177,12 @@ export default function Header({ language, setLanguage }) {
                         toggleMobileMenu();
                       }}
                     >
-                      Contact
+                      {t("contact_b")}
                     </a>
                   </li>
                   <li>
                     <Link to="/portfolio" onClick={toggleMobileMenu}>
-                      Portfolio
+                      {t("portfolio_b")}
                     </Link>
                   </li>
                 </ul>
@@ -189,9 +193,10 @@ export default function Header({ language, setLanguage }) {
                     onChange={(e) => setLanguage(e.target.value)}
                     className="language-selector"
                   >
-                    <option value="en">🇬🇧 English</option>
+                    <option value="en">🇺🇸 English</option>
                     <option value="fr">🇫🇷 Français</option>
                     <option value="es">🇪🇸 Español</option>
+                    <option value="br">🇧🇷 Portugês</option>
                   </select>
                 </div>
               </div>
@@ -229,9 +234,10 @@ export default function Header({ language, setLanguage }) {
                 onChange={(e) => setLanguage(e.target.value)}
                 className="language-selector"
               >
-                <option value="en">🇬🇧 English</option>
+                <option value="en">🇺🇸 English</option>
                 <option value="fr">🇫🇷 Français</option>
                 <option value="es">🇪🇸 Español</option>
+                <option value="br">🇧🇷 Portugês</option>
               </select>
             </div>
           </nav>
@@ -266,9 +272,10 @@ export default function Header({ language, setLanguage }) {
               onChange={(e) => setLanguage(e.target.value)}
               className="language-selector-float"
             >
-              <option value="en">🇬🇧 English</option>
+              <option value="en">🇺🇸 English</option>
               <option value="fr">🇫🇷 Français</option>
               <option value="es">🇪🇸 Español</option>
+              <option value="br">🇧🇷 Portugês</option>
             </select>
           </div>
         </div>
